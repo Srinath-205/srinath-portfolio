@@ -34,7 +34,8 @@ export default function HomePage() {
                 </div>
             </div>
             <div>
-                <img src={require("../../src/Sources/home-profile.png")} alt="Profile" className = "home-right-profile"></img>
+                //<img src={require("../../src/Sources/home-profile.png")} alt="Profile" className = "home-right-profile"></img>
+                <img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.economictimes.com%2Fmagazines%2Fpanache%2Fsunny-leone-reveals-her-ex-boyfriend-cheated-on-her-two-months-before-their-wedding%2Farticleshow%2F109240578.cms&psig=AOvVaw0PfjVFfY8XN_yNAqn7m2cB&ust=1720026640626000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIih-9rsiIcDFQAAAAAdAAAAABAx"} alt="Profile" className = "home-right-profile"></img>
             </div>
 
         </div>
