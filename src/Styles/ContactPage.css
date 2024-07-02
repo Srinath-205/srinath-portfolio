@@ -1,0 +1,107 @@
+.contact-box-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 2%;
+    margin: 0 5%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px #00000020;
+}
+
+.contact-right-profile{
+    height: 25rem;
+    margin-top: 5%;
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+
+
+.contact-left-container{
+    text-align: center;
+}
+
+.contact-left-header{
+    font-size: 1.2rem;
+}
+
+.contact-form p{
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-form input{
+    font-family: "Roboto";
+    font-size: 1rem;
+    width: 25rem;
+    padding: 0.8rem;
+    border: 0.1rem solid #CCC;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.contact-form textarea{
+    font-family: "Roboto";
+    font-size: 1rem;
+    width: 25rem;
+    height: 100px;
+    padding: 0.8rem;
+    border: 0.1rem solid #CCC;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    text-align: center;
+    resize: none;
+}
+
+.contact-form button{
+    width: 25%;
+    padding: 0.6rem;
+    margin-top: 1.5rem;
+    border: 0.1rem solid #1B9FFE;
+    box-sizing: border-box;
+    border-radius: 60px;
+    text-align: center;
+    background-color: #1B9FFE;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: #FFF;
+    color: #1B9FFE;
+}
+
+@media screen and (max-width: 1050px){
+    .contact-right-profile{
+        height: 20rem;
+        margin-top: 15%;
+    }
+    .contact-form input, .contact-form textarea{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .contact-box-container{
+        flex-direction: column;
+    }
+    .contact-right-profile{
+        margin: auto;
+        height: auto;
+        width: 50%;
+    }
+    .contact-form button{
+        margin-bottom: 1rem;
+    }
+    .contact-form input, .contact-form textarea{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contact-form button{
+        margin-bottom: 1rem;
+    }
+    .contact-form input, .contact-form textarea{
+        width: 90%;
+    }
+}
